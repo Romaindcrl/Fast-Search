@@ -17,7 +17,7 @@ function clearSearch() {
 
 function loadSearch() {
   var search = document.getElementById("searchForm").value;
-  var url = "https://api.dictionaryapi.dev/api/v2/entries/fr/" + search;
+  var url = "https://api.dictionaryapi.dev/api/v2/entries/en/" + search;
   xhttp.open("GET", url, true);
   xhttp.send(); 
   var imgUrl = "https://source.unsplash.com/featured/?"+ search;
